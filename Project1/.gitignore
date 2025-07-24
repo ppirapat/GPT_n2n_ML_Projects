@@ -1,0 +1,21 @@
+# Virtual environment: Local Python environment – machine-specific
+venv/
+
+# Python cache: Python bytecode – auto-generated, unnecessary to track
+__pycache__/
+*.pyc
+
+# Model files: Trained models – large, binary, can be re-generated or versioned separately
+models/
+*.onnx
+*.pkl
+
+# Jupyter: 	Auto-saves from Jupyter – clutter, not meaningful in version control
+.ipynb_checkpoints/
+
+# Data: usually large / confidential / can be retrieved or regenerated from another source
+# data/processed/           # Output data – derived from raw
+data/                       
+
+# Not ignore Raw data when...
+# working on a small project / raw data is tiny and public / essential for reproducibility

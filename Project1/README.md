@@ -67,7 +67,8 @@ or
     git commit -m "Add data loading & cleaning"
     git checkout main
     git merge feature/data_loading
-    git branch -d feature/data_loading
+<!-- deletes the local branch only if it has been merged. -->
+    git branch -d feature/data_loading          
 
 
 ## 📥 2. Data import & cleaning (src/data.py)

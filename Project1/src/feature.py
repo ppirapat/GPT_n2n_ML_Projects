@@ -19,6 +19,7 @@ def build_preprocessor(numeric_cols, categorical_cols):
                                        ('num', 'num_pipe', 'numeric_cols'),         # ('step_name', transformer, columns)
                                        ('col', 'cat_pipe', 'categorical_cols')      # ('step_name', transformer, columns)
                                      ])
+    return preprocessor
     
 '''
 1. Input:
